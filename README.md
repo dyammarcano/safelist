@@ -1,1 +1,1 @@
-# module template using custom cobra cli
+# module Safelist
