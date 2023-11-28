@@ -58,6 +58,9 @@ jobs:
       - name: Run vet tool
         run: go vet ./...
 
+      - name: Run Generate
+        run: go generate ./...
+
       - name: Check gofmt passes
         run: |
           if [ -n "$(gofmt -s -l .)" ]; then
