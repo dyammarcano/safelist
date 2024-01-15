@@ -1,6 +1,6 @@
-module github.com/dyammarcano/module-template-go
+module github.com/dyammarcano/safelist
 
-go 1.21
+go 1.20
 
 require (
 	github.com/go-git/go-git/v5 v5.10.1
